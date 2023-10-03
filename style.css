@@ -1,0 +1,154 @@
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Roboto, sans-serif;
+    color: #1F2937;
+}
+
+/* Background colors */
+
+.dark { /* Hero and Header */
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+.blue { /* Button, call to action */
+    background-color: #3882f6;
+    color:#f9faf8;
+}
+
+.grey { /* Quote container */
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: 200;
+}
+
+button {
+    padding: 8px 20px;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+/* Fonts */
+
+#title {font-size: 48px; font-weight: 800; margin: 0;} 
+
+.logo {font-size: 24px;}
+
+.secondary-text {font-size: 18px; color: #e5e7eb}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 80px 30px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+/* Hero */
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 80px 30px;
+    gap: 30px;  
+}
+
+#placeholder {
+    background-color: gray;
+    width: 500px;
+    height: 230px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero button {
+    border: none;
+}
+
+/* Infos */
+
+.infos {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.infos h2 {font-size: 36px; font-weight: 800;}
+
+.container {
+    margin: 20px 150px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.placeholders, .subtexts {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 0px auto;
+}
+
+.placeholders div {
+    width: 130px;
+    height: 130px;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+}
+
+.subtexts p {
+    width: 130px;
+    margin-top: 0px;
+    color: gray;
+}
+
+/* Quote */
+
+.quote {
+    padding: 40px 110px;
+}
+
+.quote p:nth-child(2) {
+    font-size: 20px;
+    text-align: right;
+    font-weight: 700;
+}
+
+/* Call to action */
+
+.call {
+    margin: 70px auto;
+    width: 700px;
+    padding: 35px 60px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call div p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.call button {
+    border: 3px solid #f9faf8;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
